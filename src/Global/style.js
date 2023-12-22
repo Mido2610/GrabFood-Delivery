@@ -52,7 +52,7 @@ export const  fonts ={
     lightItalic: 'Roboto-LightItalic',
     medium: 'Roboto-Medium',
     mediumItalic: 'Roboto-MediumItalic',
-    bold: 'Roboto-Bold',
+    bold: 'Roboto',
     boldItalic: 'Roboto-BoldItalic',
     condensed: 'RobotoCondensed-Regular',
     condensedItalic: 'RobotoCondensed-Italic',
