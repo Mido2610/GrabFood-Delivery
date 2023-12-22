@@ -57,3 +57,17 @@ export const filterData = [
     },
   ];
   
+
+  export const productData = [{name:"Hand cut chips", price:29.30,image:"",
+              details:"Two 100% fresh beef burger patties that are hot,deliciously",id:0},
+                {name:"Big Mac", price:50.80,image:"https://dulichvn.org.vn/nhaptin/uploads/images/phohanoiduoccangoilamonngon.jpg",
+                details:"McFeast features two 100% fresh beef burger patties that are hot",id:1},
+                {name:"Chicken Burger", price:70,image:"https://dulichvn.org.vn/nhaptin/uploads/images/phohanoiduoccangoilamonngon.jpg",details:"",id:2},
+                
+                {name:"Hand cut chips", price:29.30,image:"https://dulichvn.org.vn/nhaptin/uploads/images/phohanoiduoccangoilamonngon.jpg",
+                details:"Two 100% fresh beef burger patties that are hot,deliciously",id:3},
+                {name:"Big Mac", price:70.20,image:"https://dulichvn.org.vn/nhaptin/uploads/images/phohanoiduoccangoilamonngon.jpg",
+                details:"McFeast features two 100% fresh beef burger patties that are hot",id:4},
+                {name:"Chicken Burger", price:70,image:"https://dulichvn.org.vn/nhaptin/uploads/images/phohanoiduoccangoilamonngon.jpg",details:"",id:5},
+              
+                  ];   

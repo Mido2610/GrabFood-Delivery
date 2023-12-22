@@ -9,6 +9,7 @@ import MyOrdersScreen from '../screens/MyOrdersScreen';
 import MyAccountScreen from '../screens/MyAccountScreen';
 import SearchScreen from '../screens/SearchScreen';
 import Header from '../components/Header';
+import ClientStack from './ClientStack';
 
 const ClientTabs = createBottomTabNavigator();
 
@@ -19,9 +20,6 @@ export default function RootClientTabs(){
         <ClientTabs.Navigator
             screenOptions={{
             tabBarActiveTintColor: colors.buttons,
-            tabBarStyle: {
-                
-            }
         }}
                 >
             <ClientTabs.Screen 
@@ -49,11 +47,12 @@ export default function RootClientTabs(){
 
 
             <ClientTabs.Screen 
-                name ="SearchScreen"
-                component ={SearchScreen}
+                name ="ClientSearchScreen"
+                component ={ClientStack}
                 options ={
                     {
                         tabBarLabel : "Tìm Kiếm",
+                        headerShown: false,
                         tabBarIcon: ({color,size})=>(
                             <Icon 
                                 name ='search'
